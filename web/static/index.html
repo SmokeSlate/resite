@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReSite</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="site-name"></h1>
+        <div class="profile">
+            <img id="profile-pic" src="default-avatar.png" alt="Profile Picture">
+        </div>
+    </header>
+    <main>
+        <h2>Request a Site</h2>
+        <input type="text" id="site-request" placeholder="Describe your site request">
+        <button onclick="requestSite()">Submit</button>
+    </main>
+</body>
+</html>
